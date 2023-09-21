@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl:'./app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'angularEjemplo';
 
-  apellido='Aranda'
+  /*apellido='Aranda'
 
   duplicarNumero(valor:number):number{
     return valor*2;
@@ -17,5 +17,6 @@ export class AppComponent {
     titulo:'Spiderman',
     fechaLanzamiento:new Date(),
     precio:2500,
-  }
+  }*/
+
 }
