@@ -9,6 +9,9 @@ import { ProductoFilterPipe } from './product/producto-filter.pipe';
 import { OperasBasComponent } from './formularios/operas-bas/operas-bas.component';
 import { CalculosComponent } from './formularios/calculos/calculos.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SumaComponent } from './formularios/suma/suma.component';
+import { MenuComponent } from './menu/menu/menu.component';
+import { MaterialModule } from './material/material/material.module';
 
 @NgModule({
   declarations: [
@@ -16,12 +19,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProductListComponent,
     ProductoFilterPipe,
     OperasBasComponent,
-    CalculosComponent
+    CalculosComponent,
+    SumaComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
